@@ -1,15 +1,15 @@
 // JavaScript Variables and Data Types
 
-// 🟢 Variables can be declared using var, let, or const
+// Variables can be declared using var, let, or const
 var name = "Rashmi";  // old way, function-scoped
 let age = 21;         // modern way, block-scoped
 const country = "India"; // cannot be changed after declaration
 
-// 🟢 JavaScript is dynamically typed
+// JavaScript is dynamically typed
 let x = 10;      // x is a number
 x = "hello";     // now x is a string
 
-// 🟢 Data Types in JavaScript
+// Data Types in JavaScript
 
 // 1. String - sequence of characters
 let greeting = "Hello, World";
@@ -37,7 +37,7 @@ let person = {
 // 7. Array - list of values
 let colors = ["red", "green", "blue"];
 
-// 🟢 Typeof operator - checks the type of a variable
+// Typeof operator - checks the type of a variable
 console.log(typeof score);      // number
 console.log(typeof greeting);   // string
 console.log(typeof emptyValue); // object (this is a JavaScript quirk)
